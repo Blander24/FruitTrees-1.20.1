@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fruittrees",
+	"version": "${version}",
+	"name": "Fruit Trees",
+	"description": "Fruit Trees! My first mod, but hopefully not my last one!",
+	"authors": [
+		"CrazyBenji64"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fruittrees/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.benji.fruittrees.FruitTrees"
+		],
+		"client": [
+			"net.benji.fruittrees.FruitTreesClient"
+		],
+		"fabric-datagen": [
+			"net.benji.fruittrees.FruitTreesDataGenerator"
+		]
+	},
+	"mixins": [
+		"fruittrees.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
