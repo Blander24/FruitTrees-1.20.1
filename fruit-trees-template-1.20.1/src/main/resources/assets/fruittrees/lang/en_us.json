@@ -1,3 +1,8 @@
 {
-  "item.fruittrees.mango_ingot": "Mango Ingot"
+  "item.fruittrees.mango_ingot": "Mango Ingot",
+
+  "block.fruittrees.mango_block": "Block of Mango",
+  "block.fruittrees.mango_leaves": "Mango Leaves",
+
+  "itemgroup.fruits": "Fruit Trees & More"
 }
