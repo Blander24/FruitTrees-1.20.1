@@ -21,6 +21,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGO_BLOCK);
                         entries.add(ModBlocks.MANGO_LEAVES);
 
+                        entries.add(ModItems.MANGO_PICKAXE);
+                        entries.add(ModItems.MANGO_AXE);
+                        entries.add(ModItems.MANGO_HOE);
+                        entries.add(ModItems.MANGO_SHOVEL);
+                        entries.add(ModItems.MANGO_SWORD);
+
+
                     }).build());
 
     public static void registerItemGroups() {

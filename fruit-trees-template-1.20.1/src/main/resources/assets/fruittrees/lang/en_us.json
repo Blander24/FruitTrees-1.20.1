@@ -3,6 +3,12 @@
   "item.fruittrees.mango": "Mango",
   "item.fruittrees.cooked_mango": "Cooked Mango",
 
+  "item.fruittrees.mango_pickaxe": "Mango Pickaxe",
+  "item.fruittrees.mango_axe": "Mango Axe",
+  "item.fruittrees.mango_shovel": "Mango Shovel",
+  "item.fruittrees.mango_hoe": "Mango Hoe",
+  "item.fruittrees.mango_sword": "Mango Sword",
+
   "block.fruittrees.mango_block": "Block of Mango",
   "block.fruittrees.mango_leaves": "Mango Leaves",
 
