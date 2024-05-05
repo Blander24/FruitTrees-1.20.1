@@ -15,6 +15,8 @@ public class ModItemGroups {
             new Identifier(FruitTrees.MOD_ID, "mango_ingot"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fruits"))
                     .icon(() -> new ItemStack(ModItems.MANGO_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.MANGO);
+                        entries.add(ModItems.COOKED_MANGO);
                         entries.add(ModItems.MANGO_INGOT);
                         entries.add(ModBlocks.MANGO_BLOCK);
                         entries.add(ModBlocks.MANGO_LEAVES);

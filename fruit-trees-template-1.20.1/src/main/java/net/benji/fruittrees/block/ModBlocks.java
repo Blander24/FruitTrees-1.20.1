@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final Block MANGO_BLOCK = registerBlock("mango_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.HONEY)));
     public static final Block MANGO_LEAVES = registerBlock("mango_leaves",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+            new Block(FabricBlockSettings.copyOf(Blocks.FLOWERING_AZALEA_LEAVES).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {

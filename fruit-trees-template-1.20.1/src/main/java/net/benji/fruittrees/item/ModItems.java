@@ -13,6 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item MANGO_INGOT = registerItem("mango_ingot", new Item(new FabricItemSettings()));
+    public static final Item MANGO = registerItem("mango", new Item(new FabricItemSettings().food(ModFoodComponents.MANGO)));
+    public static final Item COOKED_MANGO = registerItem("cooked_mango", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_MANGO)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fruittrees:mango_block"
+    }
+  ],
+  "result": {
+    "item": "fruittrees:mango_ingot",
+    "count": 9
+  }
+}
