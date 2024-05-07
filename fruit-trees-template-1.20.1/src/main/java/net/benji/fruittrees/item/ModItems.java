@@ -26,6 +26,15 @@ public class ModItems {
     public static final Item MANGO_SWORD = registerItem("mango_sword",
             new SwordItem(ModToolMaterial.MANGO, 6, 2f, new FabricItemSettings()));
 
+    public static final Item MANGO_HELMET = registerItem("mango_helmet",
+            new ArmorItem(ModArmorMaterials.MANGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item MANGO_CHESTPLATE = registerItem("mango_chestplate",
+            new ArmorItem(ModArmorMaterials.MANGO, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item MANGO_LEGGINGS = registerItem("mango_leggings",
+            new ArmorItem(ModArmorMaterials.MANGO, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item MANGO_BOOTS = registerItem("mango_boots",
+            new ArmorItem(ModArmorMaterials.MANGO, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 
     }

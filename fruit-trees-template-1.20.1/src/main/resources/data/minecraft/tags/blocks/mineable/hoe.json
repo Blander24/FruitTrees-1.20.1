@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fruittrees:mango_block"
+    "fruittrees:mango_block",
+    "fruittrees:mango_leaves"
   ]
 }
